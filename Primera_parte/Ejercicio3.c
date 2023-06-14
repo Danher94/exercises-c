@@ -1,5 +1,10 @@
 #include <stdio.h>
 
+/* ---Enunciado---
+Dada un cantidad en pesos, obtener la equivalencia en dólares, asumiendo que la
+unidad cambiaría es un dato desconocido.
+*/
+
 int main(){
 	float cantidad_pesos, unidad_cambiaria, equivalente;
 	

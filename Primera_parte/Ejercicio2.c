@@ -1,5 +1,13 @@
 #include <stdio.h>
 
+/* ---Enunciado---
+Un alumno desea saber cual será su calificación final en la materia de Algoritmos.
+Dicha calificación se compone de los siguientes porcentajes:
+- 55% del promedio de sus tres calificaciones parciales.
+- 30% de la calificación del examen final.
+- 15% de la calificación de un trabajo final.
+*/
+
 int main (){
 	int nota_parcial, nota_parcial_2, nota_parcial_3;
 	int examen_final;

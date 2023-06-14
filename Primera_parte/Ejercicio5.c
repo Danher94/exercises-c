@@ -1,5 +1,11 @@
 #include <stdio.h>
 
+/* ---Enunciado---
+Tres personas deciden invertir su dinero para fundar una empresa. Cada una de
+ellas invierte una cantidad distinta. Obtener el porcentaje que cada quien invierte con
+respecto a la cantidad total invertida.
+*/
+
 int main(){
 	float investor_1, investor_2, investor_3, investment, percent_1, percent_2, percent_3;
 	
