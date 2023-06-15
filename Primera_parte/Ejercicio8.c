@@ -1,5 +1,11 @@
 #include <stdio.h>
 
+/* ---Enunciado---
+Escriba un programa que dada una hora en formato (horas, minutos, segundos)
+indiqué cual será
+el tiempo dentro de un segundo.
+*/
+
 int main(){
 	int hour, min, sec;
 	

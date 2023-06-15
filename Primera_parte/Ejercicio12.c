@@ -1,5 +1,10 @@
 #include <stdio.h>
 
+/* ---Enunciado---
+Realizar un programa para obtener la suma de los cien números siguientes a uno
+dado.
+*/
+
 int main() {
 	int num, add = 0, i;
 	

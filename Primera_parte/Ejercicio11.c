@@ -1,5 +1,10 @@
 #include <stdio.h>
 
+/* ---Enunciado---
+Escriba un programa que divida dos números por medio de restas sucesivas.
+(Misma idea del anterior)
+*/
+
 int main(){
 	int dividendo, divisor, cociente = 0;
 

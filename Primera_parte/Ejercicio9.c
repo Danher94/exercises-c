@@ -1,5 +1,16 @@
 #include <stdio.h>
 
+/* ---Enunciado---
+Cinco miembros de un club contra la obesidad desean saber cuanto han bajado o
+subido de peso desde la ultima vez que se reunieron. Para esto se debe realizar un
+ritual de pesaje en donde cada uno se pesa en diez básculas distintas para así tener
+el promedio mas exacto de su peso. Si existe diferencia positiva entre este promedio
+de peso y el peso de la ultima vez que se reunieron, significa que subieron de peso.
+Pero si la diferencia es negativa, significa que bajaron. Lo que el problema requiere
+es que por cada persona se imprima un letrero que diga: “SUBIO” o “BAJO” y la
+cantidad de kilos que subió o bajo de peso.
+*/
+
 int main(){
 	float balance_1, balance_2, balance_3, balance_4, balance_5, balance_6, balance_7, balance_8, balance_9, balance_10, average, previus_w, result;
 	//float balance[]
