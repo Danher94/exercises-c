@@ -1,6 +1,11 @@
 #include <stdio.h>
 #include <string.h>
 
+/* ---Enunciado---
+Escribir un programa que copie un string en una nueva variable.
+(No usar strcpy, hacerlo con una estructura repetitiva)
+*/
+
 int main(){
 	char letters[100], letters2[100];
 	int i;
