@@ -1,30 +1,4 @@
 #include <stdio.h>
-#include <math.h>
-
-/* ---Enunciado---
-Escriba un programa que lea un número entero n mayor a cero que identifica un
-número de segundos, y calcule e imprima el número de horas, minutos y segundos
-contenidos en ella. Ejemplo: Para n igual 15723 se debe imprimir 4 horas, 22
-minutos y 3 segundos.
-*/
-
-int main(){
-	double number, hours, hours_2, min, min_2, sec;
-	
-	printf("Ingrese el numero ha convertir:\n");
-	scanf("%lf", &number);
-	
-	hours = number / 3600;
-	min = modf(hours, &hours_2);
-	min = min * 60;
-	sec = modf(min, &min_2);
-	sec = sec * 60;
-	printf("El numero equivale a:\n%.1f horas\n%.1f minutos\n%.1f segundos", hours_2, min_2, sec);
-	
-	return 0;
-}
-
-#include <stdio.h>
 
 int main()
 {
