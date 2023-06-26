@@ -2,8 +2,8 @@
 #include <string.h>
 
 /*
-Escribir un programa que borre todos los espacios extras de un string.
-Ej: "Hola     mundo   cruel" -> "Hola mundo cruel".
+Escribir un programa que imprima el numero de 
+ocurrencias de un caracter en un string.
 */
 
 int main(){
