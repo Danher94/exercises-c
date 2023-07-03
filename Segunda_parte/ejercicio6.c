@@ -10,18 +10,21 @@ a izquierda ; p. ej., anilina).
 
 int main () {
 	char str1[100];
-	int i, j, h = 0;
+	int i, j, isPalindrome = 1;
 	
 	printf("Ingrese la palabra: ");
 	fgets(str1, sizeof(str1), stdin);
 	
-	for (i = 0, j = strlen(str1) - 2; i <= strlen(str1) - 2; i++, j--){
+	
+	for (i = 0, j = strlen(str1) - 2; i < (strlen(str1) - 1) / 2; i++, j--){
 		if (str1[i] != str1[j]){
-			h++;
+			isPalindrome = 0; // falso
+			break;
 		}
 	}
 	
-	if (h == 0){
+	
+	if (isPalindrome){ // 0 -> falso, 1 -> verdadero
 		printf("Esta palabra es palindroma");
 	}else{
 		printf("Esta palabra no es palindroma");
