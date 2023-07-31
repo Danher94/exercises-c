@@ -19,9 +19,7 @@ int main () {
 	if (strlen(str1) >= 10){
 		while (str1[i] != '\0'){
 			for (; i <3; i++){
-				if ((str1[i] >= 65 && str1[i] <= 90) || (str1[i] >= 97 && str1[i] <= 122)){
-					
-				}else{
+				if (!((str1[i] >= 65 && str1[i] <= 90) || (str1[i] >= 97 && str1[i] <= 122))){
 					Validate3Letters = 0;
 					break;
 				}
